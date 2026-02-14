@@ -47,11 +47,19 @@ h1{
     color:  red;
 }
 
+/* P responsivo */
 p{
-    width: 20rem;
-    margin-left: 5rem;
-    
+  max-width: min(680px, 92vw);   /* no se pasa del ancho */
+  width: 100%;
+  margin: 12px auto;
+  padding: 0 10px;
+  font-size: clamp(14px, 2.2vw, 18px); /* responsivo */
+  line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: anywhere; /* corta palabras largas */
+  text-wrap: pretty;       /* mejora saltos (si el navegador lo soporta) */
 }
+
 
 .buttons{
     margin-top: 50px;
