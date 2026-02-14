@@ -54,35 +54,40 @@ p{
 
 .buttons{
     margin-top: 50px;
+    margin-right: 6rem;
 }
 
 .si-btn{
     font-size: 1.5rem;
     padding: 15px 35px;
-    background-color: rgb(238, 51, 51);
+
+    background-color: #f7adad;
+    box-shadow: 0 10px 10px #ec2121;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    margin-right: 7rem;
     transition: background-color 0.3s ease;
 }
 
 .si-btn:hover{
-    background-color: tomato;
-    color: green;
+    background-color: red;
+    color: rgb(255, 255, 255);
 }
 
 .no-btn{
     font-size: 1.5rem;
     padding: 15px 35px;
-    background-color: rgb(238, 51, 51);
+    background-color: #f7adad;
+    box-shadow: 0 10px 10px #ec2121;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 .no-btn:hover{
-    background-color: tomato;
-    color: red;
+    background-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
 }
 .image-container img{
     border-radius: 10px;
@@ -97,9 +102,9 @@ p{
 /* NO pequeño y movible */
 .no-btn{
   position: absolute;
-  left: 70%;
+  left: 90%;
   padding: 20px 35px;
-  top: -1rem;
+  top: -0.3rem;
   transform: translateX(-50%) scale(0.85); /* más chiquito */
   transition: left 0.18s ease, top 0.18s ease, transform 0.12s ease;
 }
